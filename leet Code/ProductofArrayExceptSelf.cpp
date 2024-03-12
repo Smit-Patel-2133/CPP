@@ -5,41 +5,35 @@ using namespace std;
 class Solution
 {
 public:
-    std::vector<int> productExceptSelf(std::vector<int> &nums)
+    vector<int> productExceptSelf(vector<int> &nums)
     {
         int n = nums.size();
-        std::vector<int> result(n, 1);
+        vector<int> leftProducts(n, 1);
+        vector<int> rightProducts(n, 1);
+        vector<int> answer(n, 1);
 
         int leftProduct = 1;
-        for (int i = 0; i < n; i++)
+        for (int i = 1; i < n; ++i)
         {
-            result[i] *= leftProduct;
-            leftProduct *= nums[i];
-        }
-        for (int i = 0; i < n; i++)
-        {
-            /* code */
-            cout << result[i] << endl;
+            leftProduct *= nums[i - 1];
+            leftProducts[i] = leftProduct;
         }
 
         int rightProduct = 1;
-        for (int i = n - 1; i >= 0; i--)
+        for (int i = n - 2; i >= 0; --i)
         {
-            result[i] *= rightProduct;
-            rightProduct *= nums[i];
-            cout << "rightProduct:-" << rightProduct << endl
-                 << "result:-" << result[i] << endl;
-        }
-        for (int i = 0; i < n; i++)
-        {
-            /* code */
-            cout << result[i] << endl;
+            rightProduct *= nums[i + 1];
+            rightProducts[i] = rightProduct;
         }
 
-        return result;
+        for (int i = 0; i < n; ++i)
+        {
+            answer[i] = leftProducts[i] * rightProducts[i];
+        }
+
+        return answer;
     }
 };
-
 int main()
 {
     Solution solution;

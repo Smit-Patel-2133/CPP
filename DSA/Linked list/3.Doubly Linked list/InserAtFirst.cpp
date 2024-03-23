@@ -38,7 +38,6 @@ void insertAtFront(Node *&head, int newValue)
     {
         head->prev = temp;
     }
-
     head = temp;
 }
 

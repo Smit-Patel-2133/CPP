@@ -1,0 +1,96 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cpp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "CPP_BC_NQ::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CPP_BC_NQ-Debug-2c1a616587d5877c6110.json",
+					"name" : "CPP_BC_NQ",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp_BC_TNQ::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp_BC_TNQ-Debug-f4af56f51c26d10170ad.json",
+					"name" : "cpp_BC_TNQ",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp_DSA::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp_DSA-Debug-3f9a92ac3b9e8667ed9f.json",
+					"name" : "cpp_DSA",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp_DSA1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp_DSA1-Debug-d0bad912bf7081603267.json",
+					"name" : "cpp_DSA1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp_main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp_main-Debug-973e3d06ba8d16577412.json",
+					"name" : "cpp_main",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "S:/Learning/cpp/cmake-build-debug",
+		"source" : "S:/Learning/cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

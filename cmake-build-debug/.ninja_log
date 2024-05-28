@@ -1,0 +1,27 @@
+# ninja log v5
+3	1769	7384320979284486	CMakeFiles/cpp_BC.dir/DSA/Backtracking/n-quean.cpp.obj	8625d94195928858
+8	572	7386016994673875	build.ninja	1a7834cb167c03a5
+14	631	7384295663055934	CMakeFiles/cpp_DSA.dir/DSA/Binary_Tree/CountNode.cpp.obj	11065fa36b1ebf77
+3	647	7384295663065942	CMakeFiles/cpp_main.dir/main.cpp.obj	e10a63f088999786
+770	966	7384320617758763	cpp_DSA2.exe	2d29ea4cfa62dd0f
+647	943	7384295666118329	cpp_main.exe	5781abb9d808eb91
+7	430	7384310360355923	CMakeFiles/cpp_DSA.dir/DSA/Binary_Tree/create.cpp.obj	642b4b7cfa285e7d
+3	769	7384320615846739	CMakeFiles/cpp_DSA2.dir/DSA/Binary_Tree/create.cpp.obj	c1a8a9112aba1d95
+1772	1956	7384320981082213	cpp_BC.exe	751688cb5a5b21fd
+13	1276	7384316143553307	CMakeFiles/my_executable.dir/DSA/Binary_Tree/DiameterApproch1.cpp.obj	342148350362c7c9
+3	802	7384316138874454	CMakeFiles/my_executable.dir/DSA/Binary_Tree/CountNode.cpp.obj	e9e272746014f7f3
+37	843	7384316139281030	CMakeFiles/my_executable.dir/DSA/Binary_Tree/InOrderTravasal.cpp.obj	212f0dd3bcacd2fc
+28	928	7384316140048634	CMakeFiles/my_executable.dir/DSA/Binary_Tree/GoodNodes.cpp.obj	8244ea63fa54aab
+1276	1917	7384316150019943	CMakeFiles/my_executable.dir/DSA/Binary_Tree/preTravasal.cpp.obj	56cb17f6924f0b98
+20	1160	7384316142289889	CMakeFiles/my_executable.dir/DSA/Binary_Tree/DiameterApproch2.cpp.obj	16f12a3743c82c0d
+46	1289	7384316143583319	CMakeFiles/my_executable.dir/DSA/Binary_Tree/LevelOrderTravsal.cpp.obj	372033c86d812d18
+808	1638	7384316147237599	CMakeFiles/my_executable.dir/DSA/Binary_Tree/PostOrderTravasal.cpp.obj	d4287c7a3768377c
+843	1701	7384316147865851	CMakeFiles/my_executable.dir/DSA/Binary_Tree/SumOfNode.cpp.obj	6641f761f62649c5
+928	1772	7384316148581800	CMakeFiles/my_executable.dir/DSA/Binary_Tree/create.cpp.obj	f873e515ffc8b49
+1161	2001	7384316150880801	CMakeFiles/my_executable.dir/DSA/Binary_Tree/heightOfTree.cpp.obj	db40892cb0ba7534
+2	1046	7386016127417511	CMakeFiles/cpp_BC_TNQ.dir/DSA/Backtracking/TotalNQueen.cpp.obj	8e3be854ae18325e
+1047	1394	7386016130857321	cpp_BC_TNQ.exe	b259dc5ecd083450
+4	1500	7386017612688505	CMakeFiles/CPP_BC_NQ.dir/DSA/Backtracking/NQueend.cpp.obj	89557058da83f9ef
+1500	1712	7386017614766878	CPP_BC_NQ.exe	3a15072576441143
+8	610	7386018435685825	CMakeFiles/CPP_BC_NQ.dir/DSA/Backtracking/NQueend.cpp.obj	89557058da83f9ef
+610	755	7386018437107397	CPP_BC_NQ.exe	3a15072576441143

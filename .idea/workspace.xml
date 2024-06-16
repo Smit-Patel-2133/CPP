@@ -17,6 +17,7 @@
       <config projectName="cpp" targetName="cpp_main" />
       <config projectName="cpp" targetName="cpp_DSA1" />
       <config projectName="cpp" targetName="cpp_DSA" />
+      <config projectName="cpp" targetName="CPP_Contest_402_3" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -26,17 +27,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4dbba498-d9c3-4221-b64c-086ad4054097" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA/Backtracking/NQueend.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA/Backtracking/TotalNQueen.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/array/.idea/array.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/c_cpp_properties.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/tasks.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leet Code/Backtracking/n-quean.cpp" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet Code/Maximum_Total_Damage_With_Spell_Casting.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +65,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "CMake Application.CPP_BC_NQ.executor": "Run",
+    "CMake Application.CPP_Contest_402_3.executor": "Run",
     "CMake Application.cpp.executor": "Run",
     "CMake Application.cpp_BC.executor": "Run",
     "CMake Application.cpp_BC_TNQ.executor": "Run",
@@ -96,11 +95,21 @@
       <recent name="S:\Learning\cpp\DSA" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.CPP_BC_NQ">
+  <component name="RunManager" selected="CMake Application.CPP_Contest_402_3">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="cpp" type="CMakeListConfigurationType" factoryName="CMakeListConfigurationFactory" temporary="true">
       <method v="2" />
     </configuration>
     <configuration name="CPP_BC_NQ" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cpp" TARGET_NAME="CPP_BC_NQ" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cpp" RUN_TARGET_NAME="CPP_BC_NQ">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CPP_Contest_402_3" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cpp" TARGET_NAME="CPP_Contest_402_3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cpp" RUN_TARGET_NAME="CPP_Contest_402_3">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -133,6 +142,7 @@
     <list>
       <item itemvalue="CMake Application.CPP_BC_NQ" />
       <item itemvalue="CMake Application.cpp_BC_TNQ" />
+      <item itemvalue="CMake Application.CPP_Contest_402_3" />
       <item itemvalue="CMake Application.cpp_DSA" />
       <item itemvalue="CMake Application.cpp_DSA1" />
       <item itemvalue="CMake Application.cpp_main" />
@@ -156,6 +166,7 @@
       <workItem from="1716727709776" duration="2524000" />
       <workItem from="1716873096270" duration="435000" />
       <workItem from="1716898254712" duration="1630000" />
+      <workItem from="1718508497405" duration="1260000" />
     </task>
     <servers />
   </component>

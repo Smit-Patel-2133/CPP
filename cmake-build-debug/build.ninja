@@ -205,6 +205,39 @@ build CPP_BC_NQ.exe: CXX_EXECUTABLE_LINKER__CPP_BC_NQ_Debug CMakeFiles/CPP_BC_NQ
   TARGET_IMPLIB = libCPP_BC_NQ.dll.a
   TARGET_PDB = CPP_BC_NQ.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target CPP_Contest_402_3
+
+
+#############################################
+# Order-only phony target for CPP_Contest_402_3
+
+build cmake_object_order_depends_target_CPP_Contest_402_3: phony || CMakeFiles/CPP_Contest_402_3.dir
+
+build CMakeFiles/CPP_Contest_402_3.dir/leet_Code/Maximum_Total_Damage_With_Spell_Casting.cpp.obj: CXX_COMPILER__CPP_Contest_402_3_unscanned_Debug S$:/Learning/cpp/leet$ Code/Maximum_Total_Damage_With_Spell_Casting.cpp || cmake_object_order_depends_target_CPP_Contest_402_3
+  DEP_FILE = CMakeFiles\CPP_Contest_402_3.dir\leet_Code\Maximum_Total_Damage_With_Spell_Casting.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\CPP_Contest_402_3.dir
+  OBJECT_FILE_DIR = CMakeFiles\CPP_Contest_402_3.dir\leet_Code
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target CPP_Contest_402_3
+
+
+#############################################
+# Link the executable CPP_Contest_402_3.exe
+
+build CPP_Contest_402_3.exe: CXX_EXECUTABLE_LINKER__CPP_Contest_402_3_Debug CMakeFiles/CPP_Contest_402_3.dir/leet_Code/Maximum_Total_Damage_With_Spell_Casting.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\CPP_Contest_402_3.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = CPP_Contest_402_3.exe
+  TARGET_IMPLIB = libCPP_Contest_402_3.dll.a
+  TARGET_PDB = CPP_Contest_402_3.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -233,6 +266,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build CPP_BC_NQ: phony CPP_BC_NQ.exe
 
+build CPP_Contest_402_3: phony CPP_Contest_402_3.exe
+
 build cpp_BC_TNQ: phony cpp_BC_TNQ.exe
 
 build cpp_DSA: phony cpp_DSA.exe
@@ -249,7 +284,7 @@ build cpp_main: phony cpp_main.exe
 #############################################
 # Folder: S:/Learning/cpp/cmake-build-debug
 
-build all: phony cpp_main.exe cpp_DSA.exe cpp_DSA1.exe cpp_BC_TNQ.exe CPP_BC_NQ.exe
+build all: phony cpp_main.exe cpp_DSA.exe cpp_DSA1.exe cpp_BC_TNQ.exe CPP_BC_NQ.exe CPP_Contest_402_3.exe
 
 # =============================================================================
 # Built-in targets

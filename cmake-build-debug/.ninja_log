@@ -1,6 +1,6 @@
 # ninja log v5
 3	1769	7384320979284486	CMakeFiles/cpp_BC.dir/DSA/Backtracking/n-quean.cpp.obj	8625d94195928858
-8	572	7386016994673875	build.ninja	1a7834cb167c03a5
+8	572	7402119780224278	build.ninja	1a7834cb167c03a5
 14	631	7384295663055934	CMakeFiles/cpp_DSA.dir/DSA/Binary_Tree/CountNode.cpp.obj	11065fa36b1ebf77
 3	647	7384295663065942	CMakeFiles/cpp_main.dir/main.cpp.obj	e10a63f088999786
 770	966	7384320617758763	cpp_DSA2.exe	2d29ea4cfa62dd0f
@@ -21,7 +21,25 @@
 1161	2001	7384316150880801	CMakeFiles/my_executable.dir/DSA/Binary_Tree/heightOfTree.cpp.obj	db40892cb0ba7534
 2	1046	7386016127417511	CMakeFiles/cpp_BC_TNQ.dir/DSA/Backtracking/TotalNQueen.cpp.obj	8e3be854ae18325e
 1047	1394	7386016130857321	cpp_BC_TNQ.exe	b259dc5ecd083450
-4	1500	7386017612688505	CMakeFiles/CPP_BC_NQ.dir/DSA/Backtracking/NQueend.cpp.obj	89557058da83f9ef
-1500	1712	7386017614766878	CPP_BC_NQ.exe	3a15072576441143
 8	610	7386018435685825	CMakeFiles/CPP_BC_NQ.dir/DSA/Backtracking/NQueend.cpp.obj	89557058da83f9ef
 610	755	7386018437107397	CPP_BC_NQ.exe	3a15072576441143
+7	1057	7402119884801229	CMakeFiles/CPP_Contest_402_3.dir/leet_Code/Maximum_Total_Damage_With_Spell_Casting.cpp.obj	5a056e34f6ade543
+1058	1365	7402119887835985	CPP_Contest_402_3.exe	a730a1d657a0e45d
+11	789	7402120132305683	CMakeFiles/CPP_Contest_402_3.dir/leet_Code/Maximum_Total_Damage_With_Spell_Casting.cpp.obj	5a056e34f6ade543
+790	939	7402120133753380	CPP_Contest_402_3.exe	a730a1d657a0e45d
+8	591	7402120465862392	CMakeFiles/CPP_Contest_402_3.dir/leet_Code/Maximum_Total_Damage_With_Spell_Casting.cpp.obj	5a056e34f6ade543
+591	737	7402120467280731	CPP_Contest_402_3.exe	a730a1d657a0e45d
+8	586	7402120727195518	CMakeFiles/CPP_Contest_402_3.dir/leet_Code/Maximum_Total_Damage_With_Spell_Casting.cpp.obj	5a056e34f6ade543
+587	705	7402120728353891	CPP_Contest_402_3.exe	a730a1d657a0e45d
+8	659	7402121451780020	CMakeFiles/CPP_Contest_402_3.dir/leet_Code/Maximum_Total_Damage_With_Spell_Casting.cpp.obj	5a056e34f6ade543
+659	795	7402121453124495	CPP_Contest_402_3.exe	a730a1d657a0e45d
+8	631	7402121947783073	CMakeFiles/CPP_Contest_402_3.dir/leet_Code/Maximum_Total_Damage_With_Spell_Casting.cpp.obj	5a056e34f6ade543
+631	755	7402121948982954	CPP_Contest_402_3.exe	a730a1d657a0e45d
+8	940	7402124041526663	CMakeFiles/CPP_Contest_402_3.dir/leet_Code/Maximum_Total_Damage_With_Spell_Casting.cpp.obj	5a056e34f6ade543
+941	1105	7402124043091925	CPP_Contest_402_3.exe	a730a1d657a0e45d
+8	705	7402124483845022	CMakeFiles/CPP_Contest_402_3.dir/leet_Code/Maximum_Total_Damage_With_Spell_Casting.cpp.obj	5a056e34f6ade543
+705	853	7402124485413947	CPP_Contest_402_3.exe	a730a1d657a0e45d
+8	645	7402126236735733	CMakeFiles/CPP_Contest_402_3.dir/leet_Code/Maximum_Total_Damage_With_Spell_Casting.cpp.obj	5a056e34f6ade543
+645	778	7402126237991205	CPP_Contest_402_3.exe	a730a1d657a0e45d
+7	616	7402127387409079	CMakeFiles/CPP_Contest_402_3.dir/leet_Code/Maximum_Total_Damage_With_Spell_Casting.cpp.obj	5a056e34f6ade543
+616	732	7402127388528630	CPP_Contest_402_3.exe	a730a1d657a0e45d

@@ -238,6 +238,105 @@ build CPP_Contest_402_3.exe: CXX_EXECUTABLE_LINKER__CPP_Contest_402_3_Debug CMak
   TARGET_IMPLIB = libCPP_Contest_402_3.dll.a
   TARGET_PDB = CPP_Contest_402_3.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target CPP_GRAPH_DFS
+
+
+#############################################
+# Order-only phony target for CPP_GRAPH_DFS
+
+build cmake_object_order_depends_target_CPP_GRAPH_DFS: phony || CMakeFiles/CPP_GRAPH_DFS.dir
+
+build CMakeFiles/CPP_GRAPH_DFS.dir/DSA/graph/DFS.cpp.obj: CXX_COMPILER__CPP_GRAPH_DFS_unscanned_Debug S$:/Learning/cpp/DSA/graph/DFS.cpp || cmake_object_order_depends_target_CPP_GRAPH_DFS
+  DEP_FILE = CMakeFiles\CPP_GRAPH_DFS.dir\DSA\graph\DFS.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\CPP_GRAPH_DFS.dir
+  OBJECT_FILE_DIR = CMakeFiles\CPP_GRAPH_DFS.dir\DSA\graph
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target CPP_GRAPH_DFS
+
+
+#############################################
+# Link the executable CPP_GRAPH_DFS.exe
+
+build CPP_GRAPH_DFS.exe: CXX_EXECUTABLE_LINKER__CPP_GRAPH_DFS_Debug CMakeFiles/CPP_GRAPH_DFS.dir/DSA/graph/DFS.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\CPP_GRAPH_DFS.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = CPP_GRAPH_DFS.exe
+  TARGET_IMPLIB = libCPP_GRAPH_DFS.dll.a
+  TARGET_PDB = CPP_GRAPH_DFS.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target CPP_GRAPH_BFS
+
+
+#############################################
+# Order-only phony target for CPP_GRAPH_BFS
+
+build cmake_object_order_depends_target_CPP_GRAPH_BFS: phony || CMakeFiles/CPP_GRAPH_BFS.dir
+
+build CMakeFiles/CPP_GRAPH_BFS.dir/DSA/graph/BFS.cpp.obj: CXX_COMPILER__CPP_GRAPH_BFS_unscanned_Debug S$:/Learning/cpp/DSA/graph/BFS.cpp || cmake_object_order_depends_target_CPP_GRAPH_BFS
+  DEP_FILE = CMakeFiles\CPP_GRAPH_BFS.dir\DSA\graph\BFS.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\CPP_GRAPH_BFS.dir
+  OBJECT_FILE_DIR = CMakeFiles\CPP_GRAPH_BFS.dir\DSA\graph
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target CPP_GRAPH_BFS
+
+
+#############################################
+# Link the executable CPP_GRAPH_BFS.exe
+
+build CPP_GRAPH_BFS.exe: CXX_EXECUTABLE_LINKER__CPP_GRAPH_BFS_Debug CMakeFiles/CPP_GRAPH_BFS.dir/DSA/graph/BFS.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\CPP_GRAPH_BFS.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = CPP_GRAPH_BFS.exe
+  TARGET_IMPLIB = libCPP_GRAPH_BFS.dll.a
+  TARGET_PDB = CPP_GRAPH_BFS.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target CPP_GRAPH_Has_path_DFS
+
+
+#############################################
+# Order-only phony target for CPP_GRAPH_Has_path_DFS
+
+build cmake_object_order_depends_target_CPP_GRAPH_Has_path_DFS: phony || CMakeFiles/CPP_GRAPH_Has_path_DFS.dir
+
+build CMakeFiles/CPP_GRAPH_Has_path_DFS.dir/DSA/graph/Has_path_DFS.cpp.obj: CXX_COMPILER__CPP_GRAPH_Has_path_DFS_unscanned_Debug S$:/Learning/cpp/DSA/graph/Has_path_DFS.cpp || cmake_object_order_depends_target_CPP_GRAPH_Has_path_DFS
+  DEP_FILE = CMakeFiles\CPP_GRAPH_Has_path_DFS.dir\DSA\graph\Has_path_DFS.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\CPP_GRAPH_Has_path_DFS.dir
+  OBJECT_FILE_DIR = CMakeFiles\CPP_GRAPH_Has_path_DFS.dir\DSA\graph
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target CPP_GRAPH_Has_path_DFS
+
+
+#############################################
+# Link the executable CPP_GRAPH_Has_path_DFS.exe
+
+build CPP_GRAPH_Has_path_DFS.exe: CXX_EXECUTABLE_LINKER__CPP_GRAPH_Has_path_DFS_Debug CMakeFiles/CPP_GRAPH_Has_path_DFS.dir/DSA/graph/Has_path_DFS.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\CPP_GRAPH_Has_path_DFS.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = CPP_GRAPH_Has_path_DFS.exe
+  TARGET_IMPLIB = libCPP_GRAPH_Has_path_DFS.dll.a
+  TARGET_PDB = CPP_GRAPH_Has_path_DFS.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -268,6 +367,12 @@ build CPP_BC_NQ: phony CPP_BC_NQ.exe
 
 build CPP_Contest_402_3: phony CPP_Contest_402_3.exe
 
+build CPP_GRAPH_BFS: phony CPP_GRAPH_BFS.exe
+
+build CPP_GRAPH_DFS: phony CPP_GRAPH_DFS.exe
+
+build CPP_GRAPH_Has_path_DFS: phony CPP_GRAPH_Has_path_DFS.exe
+
 build cpp_BC_TNQ: phony cpp_BC_TNQ.exe
 
 build cpp_DSA: phony cpp_DSA.exe
@@ -284,7 +389,7 @@ build cpp_main: phony cpp_main.exe
 #############################################
 # Folder: S:/Learning/cpp/cmake-build-debug
 
-build all: phony cpp_main.exe cpp_DSA.exe cpp_DSA1.exe cpp_BC_TNQ.exe CPP_BC_NQ.exe CPP_Contest_402_3.exe
+build all: phony cpp_main.exe cpp_DSA.exe cpp_DSA1.exe cpp_BC_TNQ.exe CPP_BC_NQ.exe CPP_Contest_402_3.exe CPP_GRAPH_DFS.exe CPP_GRAPH_BFS.exe CPP_GRAPH_Has_path_DFS.exe
 
 # =============================================================================
 # Built-in targets

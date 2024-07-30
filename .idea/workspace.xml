@@ -11,14 +11,16 @@
   </component>
   <component name="CMakeRunConfigurationManager">
     <generated>
-      <config projectName="cpp" targetName="cpp" />
-      <config projectName="cpp" targetName="CPP_GRAPH_BFS" />
+      <config projectName="cpp" targetName="CPP_GRAPH_Has_path_Undirected" />
       <config projectName="cpp" targetName="cpp_BC_TNQ" />
       <config projectName="cpp" targetName="CPP_BC_NQ" />
-      <config projectName="cpp" targetName="cpp_main" />
       <config projectName="cpp" targetName="CPP_GRAPH_DFS" />
-      <config projectName="cpp" targetName="CPP_GRAPH_Has_path_DFS" />
       <config projectName="cpp" targetName="cpp_DSA1" />
+      <config projectName="cpp" targetName="cpp" />
+      <config projectName="cpp" targetName="CPP_GRAPH_HAS_path_BFS" />
+      <config projectName="cpp" targetName="CPP_GRAPH_BFS" />
+      <config projectName="cpp" targetName="cpp_main" />
+      <config projectName="cpp" targetName="CPP_GRAPH_Has_path_DFS" />
       <config projectName="cpp" targetName="cpp_DSA" />
       <config projectName="cpp" targetName="CPP_Contest_402_3" />
     </generated>
@@ -29,14 +31,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4dbba498-d9c3-4221-b64c-086ad4054097" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DSA/graph/BFS.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA/graph/DFS.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA/graph/Has_path_DFS.cpp" afterDir="false" />
+    <list default="true" id="4dbba498-d9c3-4221-b64c-086ad4054097" name="Changes" comment="graph DFS">
+      <change afterPath="$PROJECT_DIR$/DSA/graph/Has_path_BFS.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA/graph/Has_path_Undirected.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-97d33e5720022a2118e6.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2024-06-16T03-32-58-0057.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
@@ -77,7 +76,9 @@
     "CMake Application.CPP_Contest_402_3.executor": "Run",
     "CMake Application.CPP_GRAPH_BFS.executor": "Run",
     "CMake Application.CPP_GRAPH_DFS.executor": "Run",
+    "CMake Application.CPP_GRAPH_HAS_path_BFS.executor": "Run",
     "CMake Application.CPP_GRAPH_Has_path_DFS.executor": "Run",
+    "CMake Application.CPP_GRAPH_Has_path_Undirected.executor": "Run",
     "CMake Application.cpp.executor": "Run",
     "CMake Application.cpp_BC.executor": "Run",
     "CMake Application.cpp_BC_TNQ.executor": "Run",
@@ -107,7 +108,7 @@
       <recent name="S:\Learning\cpp\DSA" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.CPP_GRAPH_Has_path_DFS">
+  <component name="RunManager" selected="CMake Application.CPP_GRAPH_Has_path_Undirected">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
@@ -136,7 +137,17 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CPP_GRAPH_HAS_path_BFS" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cpp" TARGET_NAME="CPP_GRAPH_HAS_path_BFS" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cpp" RUN_TARGET_NAME="CPP_GRAPH_HAS_path_BFS">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CPP_GRAPH_Has_path_DFS" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cpp" TARGET_NAME="CPP_GRAPH_Has_path_DFS" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cpp" RUN_TARGET_NAME="CPP_GRAPH_Has_path_DFS">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CPP_GRAPH_Has_path_Undirected" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cpp" TARGET_NAME="CPP_GRAPH_Has_path_Undirected" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cpp" RUN_TARGET_NAME="CPP_GRAPH_Has_path_Undirected">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -173,7 +184,9 @@
       <item itemvalue="CMake Application.cpp_DSA1" />
       <item itemvalue="CMake Application.CPP_GRAPH_BFS" />
       <item itemvalue="CMake Application.CPP_GRAPH_DFS" />
+      <item itemvalue="CMake Application.CPP_GRAPH_HAS_path_BFS" />
       <item itemvalue="CMake Application.CPP_GRAPH_Has_path_DFS" />
+      <item itemvalue="CMake Application.CPP_GRAPH_Has_path_Undirected" />
       <item itemvalue="CMake Application.cpp_DSA" />
       <item itemvalue="CMake Application.cpp_main" />
       <item itemvalue="CMake Debug.cpp" />
@@ -198,8 +211,17 @@
       <workItem from="1716898254712" duration="1630000" />
       <workItem from="1718508497405" duration="1260000" />
       <workItem from="1718870165717" duration="76000" />
-      <workItem from="1722335277149" duration="2319000" />
+      <workItem from="1722335277149" duration="5013000" />
     </task>
+    <task id="LOCAL-00001" summary="graph DFS">
+      <option name="closed" value="true" />
+      <created>1722357118023</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1722357118023</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,5 +231,9 @@
     <isAutomaticCheckingOnLaunch value="false" />
     <isAutomaticFoundErrors value="true" />
     <isAutomaticReloadCMake value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="graph DFS" />
+    <option name="LAST_COMMIT_MESSAGE" value="graph DFS" />
   </component>
 </project>

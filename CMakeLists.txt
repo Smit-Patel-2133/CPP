@@ -14,5 +14,6 @@ add_executable(CPP_BC_NQ DSA/Backtracking/NQueend.cpp)
 add_executable(CPP_Contest_402_3 "leet Code/Maximum_Total_Damage_With_Spell_Casting.cpp")
 add_executable(CPP_GRAPH_DFS "DSA/graph/DFS.cpp")
 add_executable(CPP_GRAPH_BFS "DSA/graph/BFS.cpp")
-
+add_executable(CPP_GRAPH_HAS_path_BFS "DSA/graph/Has_path_BFS.cpp")
 add_executable(CPP_GRAPH_Has_path_DFS "DSA/graph/Has_path_DFS.cpp")
+add_executable(CPP_GRAPH_Has_path_Undirected "DSA/graph/Has_path_Undirected.cpp")

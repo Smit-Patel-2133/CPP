@@ -1,6 +1,7 @@
 # ninja log v5
-20	383	7440622537186575	build.ninja	1a7834cb167c03a5
+20	383	7441128701551183	build.ninja	1a7834cb167c03a5
 3	1769	7384320979284486	CMakeFiles/cpp_BC.dir/DSA/Backtracking/n-quean.cpp.obj	8625d94195928858
+8	1011	7440628747688354	CMakeFiles/CPP_GRAPH_Has_path_Undirected.dir/DSA/graph/Has_path_Undirected.cpp.obj	3ac4cf42300ef020
 7	721	7440602449359326	CMakeFiles/CPP_GRAPH_Has_path_DFS.dir/DSA/graph/Has_path_DFS.cpp.obj	fdd9448b59e5dc6d
 7	616	7402127387409079	CMakeFiles/CPP_Contest_402_3.dir/leet_Code/Maximum_Total_Damage_With_Spell_Casting.cpp.obj	5a056e34f6ade543
 14	631	7384295663055934	CMakeFiles/cpp_DSA.dir/DSA/Binary_Tree/CountNode.cpp.obj	11065fa36b1ebf77
@@ -33,15 +34,6 @@
 880	1045	7440400059941501	CPP_GRAPH_BFS.exe	e3cc9dabfdb944e3
 7	829	7440606980511052	CMakeFiles/CPP_GRAPH_HAS_path_BFS.dir/DSA/graph/Has_path_BFS.cpp.obj	a42dea8737bf2efa
 829	984	7440606982050862	CPP_GRAPH_HAS_path_BFS.exe	dcce869bf8b00dfb
-4	805	7440622581886893	CMakeFiles/CPP_GRAPH_Has_path_Undirected.dir/DSA/graph/Has_path_Undirected.cpp.obj	3ac4cf42300ef020
-805	1106	7440622584856388	CPP_GRAPH_Has_path_Undirected.exe	df48c26282b8bf0e
-8	1150	7440626382523739	CMakeFiles/CPP_GRAPH_Has_path_Undirected.dir/DSA/graph/Has_path_Undirected.cpp.obj	3ac4cf42300ef020
-1151	1358	7440626384606068	CPP_GRAPH_Has_path_Undirected.exe	df48c26282b8bf0e
-7	1021	7440626674794710	CMakeFiles/CPP_GRAPH_Has_path_Undirected.dir/DSA/graph/Has_path_Undirected.cpp.obj	3ac4cf42300ef020
-1022	1241	7440626676956328	CPP_GRAPH_Has_path_Undirected.exe	df48c26282b8bf0e
-7	1008	7440627346619330	CMakeFiles/CPP_GRAPH_Has_path_Undirected.dir/DSA/graph/Has_path_Undirected.cpp.obj	3ac4cf42300ef020
-1008	1215	7440627348666129	CPP_GRAPH_Has_path_Undirected.exe	df48c26282b8bf0e
-7	1104	7440628558120336	CMakeFiles/CPP_GRAPH_Has_path_Undirected.dir/DSA/graph/Has_path_Undirected.cpp.obj	3ac4cf42300ef020
-1104	1312	7440628560188273	CPP_GRAPH_Has_path_Undirected.exe	df48c26282b8bf0e
-8	1011	7440628747688354	CMakeFiles/CPP_GRAPH_Has_path_Undirected.dir/DSA/graph/Has_path_Undirected.cpp.obj	3ac4cf42300ef020
 1011	1224	7440628749812233	CPP_GRAPH_Has_path_Undirected.exe	df48c26282b8bf0e
+4	941	7441130262540276	CMakeFiles/CPP_GRAPH_NumberOfGraph.dir/DSA/graph/NumberOfGraph.cpp.obj	1d9aa08c43012ab6
+942	1136	7441130264476094	CPP_GRAPH_NumberOfGraph.exe	1f646d9866247f75

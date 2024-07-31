@@ -403,6 +403,39 @@ build CPP_GRAPH_Has_path_Undirected.exe: CXX_EXECUTABLE_LINKER__CPP_GRAPH_Has_pa
   TARGET_IMPLIB = libCPP_GRAPH_Has_path_Undirected.dll.a
   TARGET_PDB = CPP_GRAPH_Has_path_Undirected.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target CPP_GRAPH_NumberOfGraph
+
+
+#############################################
+# Order-only phony target for CPP_GRAPH_NumberOfGraph
+
+build cmake_object_order_depends_target_CPP_GRAPH_NumberOfGraph: phony || CMakeFiles/CPP_GRAPH_NumberOfGraph.dir
+
+build CMakeFiles/CPP_GRAPH_NumberOfGraph.dir/DSA/graph/NumberOfGraph.cpp.obj: CXX_COMPILER__CPP_GRAPH_NumberOfGraph_unscanned_Debug S$:/Learning/cpp/DSA/graph/NumberOfGraph.cpp || cmake_object_order_depends_target_CPP_GRAPH_NumberOfGraph
+  DEP_FILE = CMakeFiles\CPP_GRAPH_NumberOfGraph.dir\DSA\graph\NumberOfGraph.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\CPP_GRAPH_NumberOfGraph.dir
+  OBJECT_FILE_DIR = CMakeFiles\CPP_GRAPH_NumberOfGraph.dir\DSA\graph
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target CPP_GRAPH_NumberOfGraph
+
+
+#############################################
+# Link the executable CPP_GRAPH_NumberOfGraph.exe
+
+build CPP_GRAPH_NumberOfGraph.exe: CXX_EXECUTABLE_LINKER__CPP_GRAPH_NumberOfGraph_Debug CMakeFiles/CPP_GRAPH_NumberOfGraph.dir/DSA/graph/NumberOfGraph.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\CPP_GRAPH_NumberOfGraph.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = CPP_GRAPH_NumberOfGraph.exe
+  TARGET_IMPLIB = libCPP_GRAPH_NumberOfGraph.dll.a
+  TARGET_PDB = CPP_GRAPH_NumberOfGraph.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -443,6 +476,8 @@ build CPP_GRAPH_Has_path_DFS: phony CPP_GRAPH_Has_path_DFS.exe
 
 build CPP_GRAPH_Has_path_Undirected: phony CPP_GRAPH_Has_path_Undirected.exe
 
+build CPP_GRAPH_NumberOfGraph: phony CPP_GRAPH_NumberOfGraph.exe
+
 build cpp_BC_TNQ: phony cpp_BC_TNQ.exe
 
 build cpp_DSA: phony cpp_DSA.exe
@@ -459,7 +494,7 @@ build cpp_main: phony cpp_main.exe
 #############################################
 # Folder: S:/Learning/cpp/cmake-build-debug
 
-build all: phony cpp_main.exe cpp_DSA.exe cpp_DSA1.exe cpp_BC_TNQ.exe CPP_BC_NQ.exe CPP_Contest_402_3.exe CPP_GRAPH_DFS.exe CPP_GRAPH_BFS.exe CPP_GRAPH_HAS_path_BFS.exe CPP_GRAPH_Has_path_DFS.exe CPP_GRAPH_Has_path_Undirected.exe
+build all: phony cpp_main.exe cpp_DSA.exe cpp_DSA1.exe cpp_BC_TNQ.exe CPP_BC_NQ.exe CPP_Contest_402_3.exe CPP_GRAPH_DFS.exe CPP_GRAPH_BFS.exe CPP_GRAPH_HAS_path_BFS.exe CPP_GRAPH_Has_path_DFS.exe CPP_GRAPH_Has_path_Undirected.exe CPP_GRAPH_NumberOfGraph.exe
 
 # =============================================================================
 # Built-in targets

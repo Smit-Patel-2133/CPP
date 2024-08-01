@@ -9,5 +9,10 @@ S:/Learning/cpp/cmake-build-debug/CMakeFiles/CPP_GRAPH_BFS.dir
 S:/Learning/cpp/cmake-build-debug/CMakeFiles/CPP_GRAPH_HAS_path_BFS.dir
 S:/Learning/cpp/cmake-build-debug/CMakeFiles/CPP_GRAPH_Has_path_DFS.dir
 S:/Learning/cpp/cmake-build-debug/CMakeFiles/CPP_GRAPH_Has_path_Undirected.dir
+S:/Learning/cpp/cmake-build-debug/CMakeFiles/CPP_GRAPH_NumberOfGraph.dir
+S:/Learning/cpp/cmake-build-debug/CMakeFiles/CPP_GRAPH_LargestGraph.dir
+S:/Learning/cpp/cmake-build-debug/CMakeFiles/CPP_GRAPH_ShortestPath.dir
+S:/Learning/cpp/cmake-build-debug/CMakeFiles/CPP_GRAPH_NumberOfIsland.dir
+S:/Learning/cpp/cmake-build-debug/CMakeFiles/CPP_GRAPH_SmllestIsland.dir
 S:/Learning/cpp/cmake-build-debug/CMakeFiles/edit_cache.dir
 S:/Learning/cpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir

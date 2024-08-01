@@ -12,9 +12,12 @@
   <component name="CMakeRunConfigurationManager">
     <generated>
       <config projectName="cpp" targetName="CPP_GRAPH_Has_path_Undirected" />
+      <config projectName="cpp" targetName="CPP_GRAPH_ShortestPath" />
       <config projectName="cpp" targetName="CPP_GRAPH_NumberOfGraph" />
       <config projectName="cpp" targetName="cpp_BC_TNQ" />
       <config projectName="cpp" targetName="CPP_BC_NQ" />
+      <config projectName="cpp" targetName="CPP_GRAPH_NumberOfIsland" />
+      <config projectName="cpp" targetName="CPP_GRAPH_LargestGraph" />
       <config projectName="cpp" targetName="CPP_GRAPH_DFS" />
       <config projectName="cpp" targetName="cpp_DSA1" />
       <config projectName="cpp" targetName="cpp" />
@@ -33,11 +36,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4dbba498-d9c3-4221-b64c-086ad4054097" name="Changes" comment="graph DFS">
-      <change afterPath="$PROJECT_DIR$/DSA/graph/NumberOfGraph.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA/graph/LargestComponent.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA/graph/NumberOfIsland.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA/graph/shortestPath.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA/graph/smallestIsland.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
     </list>
@@ -76,7 +84,10 @@
     "CMake Application.CPP_GRAPH_HAS_path_BFS.executor": "Run",
     "CMake Application.CPP_GRAPH_Has_path_DFS.executor": "Run",
     "CMake Application.CPP_GRAPH_Has_path_Undirected.executor": "Run",
+    "CMake Application.CPP_GRAPH_LargestGraph.executor": "Run",
     "CMake Application.CPP_GRAPH_NumberOfGraph.executor": "Run",
+    "CMake Application.CPP_GRAPH_NumberOfIsland.executor": "Run",
+    "CMake Application.CPP_GRAPH_ShortestPath.executor": "Run",
     "CMake Application.cpp.executor": "Run",
     "CMake Application.cpp_BC.executor": "Run",
     "CMake Application.cpp_BC_TNQ.executor": "Run",
@@ -106,12 +117,7 @@
       <recent name="S:\Learning\cpp\DSA" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.CPP_GRAPH_NumberOfGraph">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="CMake Application.CPP_GRAPH_SmllestIsland">
     <configuration name="cpp" type="CMakeListConfigurationType" factoryName="CMakeListConfigurationFactory" temporary="true">
       <method v="2" />
     </configuration>
@@ -150,7 +156,27 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CPP_GRAPH_LargestGraph" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cpp" TARGET_NAME="CPP_GRAPH_LargestGraph" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cpp" RUN_TARGET_NAME="CPP_GRAPH_LargestGraph">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CPP_GRAPH_NumberOfGraph" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cpp" TARGET_NAME="CPP_GRAPH_NumberOfGraph" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cpp" RUN_TARGET_NAME="CPP_GRAPH_NumberOfGraph">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CPP_GRAPH_NumberOfIsland" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cpp" TARGET_NAME="CPP_GRAPH_NumberOfIsland" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cpp" RUN_TARGET_NAME="CPP_GRAPH_NumberOfIsland">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CPP_GRAPH_ShortestPath" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cpp" TARGET_NAME="CPP_GRAPH_ShortestPath" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cpp" RUN_TARGET_NAME="CPP_GRAPH_ShortestPath">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CPP_GRAPH_SmllestIsland" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cpp" TARGET_NAME="CPP_GRAPH_SmllestIsland" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cpp" RUN_TARGET_NAME="CPP_GRAPH_SmllestIsland">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -190,7 +216,11 @@
       <item itemvalue="CMake Application.CPP_GRAPH_HAS_path_BFS" />
       <item itemvalue="CMake Application.CPP_GRAPH_Has_path_DFS" />
       <item itemvalue="CMake Application.CPP_GRAPH_Has_path_Undirected" />
+      <item itemvalue="CMake Application.CPP_GRAPH_LargestGraph" />
       <item itemvalue="CMake Application.CPP_GRAPH_NumberOfGraph" />
+      <item itemvalue="CMake Application.CPP_GRAPH_NumberOfIsland" />
+      <item itemvalue="CMake Application.CPP_GRAPH_ShortestPath" />
+      <item itemvalue="CMake Application.CPP_GRAPH_SmllestIsland" />
       <item itemvalue="CMake Application.cpp_DSA" />
       <item itemvalue="CMake Application.cpp_main" />
       <item itemvalue="CMake Debug.cpp" />
@@ -217,7 +247,8 @@
       <workItem from="1718870165717" duration="76000" />
       <workItem from="1722335277149" duration="5326000" />
       <workItem from="1722396213114" duration="636000" />
-      <workItem from="1722409103402" duration="1018000" />
+      <workItem from="1722409103402" duration="1108000" />
+      <workItem from="1722485444414" duration="4469000" />
     </task>
     <task id="LOCAL-00001" summary="graph DFS">
       <option name="closed" value="true" />
@@ -235,7 +266,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722359854534</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="graph DFS">
+      <option name="closed" value="true" />
+      <created>1722410207280</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1722410207280</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

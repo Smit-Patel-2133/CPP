@@ -436,6 +436,138 @@ build CPP_GRAPH_NumberOfGraph.exe: CXX_EXECUTABLE_LINKER__CPP_GRAPH_NumberOfGrap
   TARGET_IMPLIB = libCPP_GRAPH_NumberOfGraph.dll.a
   TARGET_PDB = CPP_GRAPH_NumberOfGraph.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target CPP_GRAPH_LargestGraph
+
+
+#############################################
+# Order-only phony target for CPP_GRAPH_LargestGraph
+
+build cmake_object_order_depends_target_CPP_GRAPH_LargestGraph: phony || CMakeFiles/CPP_GRAPH_LargestGraph.dir
+
+build CMakeFiles/CPP_GRAPH_LargestGraph.dir/DSA/graph/LargestComponent.cpp.obj: CXX_COMPILER__CPP_GRAPH_LargestGraph_unscanned_Debug S$:/Learning/cpp/DSA/graph/LargestComponent.cpp || cmake_object_order_depends_target_CPP_GRAPH_LargestGraph
+  DEP_FILE = CMakeFiles\CPP_GRAPH_LargestGraph.dir\DSA\graph\LargestComponent.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\CPP_GRAPH_LargestGraph.dir
+  OBJECT_FILE_DIR = CMakeFiles\CPP_GRAPH_LargestGraph.dir\DSA\graph
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target CPP_GRAPH_LargestGraph
+
+
+#############################################
+# Link the executable CPP_GRAPH_LargestGraph.exe
+
+build CPP_GRAPH_LargestGraph.exe: CXX_EXECUTABLE_LINKER__CPP_GRAPH_LargestGraph_Debug CMakeFiles/CPP_GRAPH_LargestGraph.dir/DSA/graph/LargestComponent.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\CPP_GRAPH_LargestGraph.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = CPP_GRAPH_LargestGraph.exe
+  TARGET_IMPLIB = libCPP_GRAPH_LargestGraph.dll.a
+  TARGET_PDB = CPP_GRAPH_LargestGraph.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target CPP_GRAPH_ShortestPath
+
+
+#############################################
+# Order-only phony target for CPP_GRAPH_ShortestPath
+
+build cmake_object_order_depends_target_CPP_GRAPH_ShortestPath: phony || CMakeFiles/CPP_GRAPH_ShortestPath.dir
+
+build CMakeFiles/CPP_GRAPH_ShortestPath.dir/DSA/graph/shortestPath.cpp.obj: CXX_COMPILER__CPP_GRAPH_ShortestPath_unscanned_Debug S$:/Learning/cpp/DSA/graph/shortestPath.cpp || cmake_object_order_depends_target_CPP_GRAPH_ShortestPath
+  DEP_FILE = CMakeFiles\CPP_GRAPH_ShortestPath.dir\DSA\graph\shortestPath.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\CPP_GRAPH_ShortestPath.dir
+  OBJECT_FILE_DIR = CMakeFiles\CPP_GRAPH_ShortestPath.dir\DSA\graph
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target CPP_GRAPH_ShortestPath
+
+
+#############################################
+# Link the executable CPP_GRAPH_ShortestPath.exe
+
+build CPP_GRAPH_ShortestPath.exe: CXX_EXECUTABLE_LINKER__CPP_GRAPH_ShortestPath_Debug CMakeFiles/CPP_GRAPH_ShortestPath.dir/DSA/graph/shortestPath.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\CPP_GRAPH_ShortestPath.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = CPP_GRAPH_ShortestPath.exe
+  TARGET_IMPLIB = libCPP_GRAPH_ShortestPath.dll.a
+  TARGET_PDB = CPP_GRAPH_ShortestPath.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target CPP_GRAPH_NumberOfIsland
+
+
+#############################################
+# Order-only phony target for CPP_GRAPH_NumberOfIsland
+
+build cmake_object_order_depends_target_CPP_GRAPH_NumberOfIsland: phony || CMakeFiles/CPP_GRAPH_NumberOfIsland.dir
+
+build CMakeFiles/CPP_GRAPH_NumberOfIsland.dir/DSA/graph/NumberOfIsland.cpp.obj: CXX_COMPILER__CPP_GRAPH_NumberOfIsland_unscanned_Debug S$:/Learning/cpp/DSA/graph/NumberOfIsland.cpp || cmake_object_order_depends_target_CPP_GRAPH_NumberOfIsland
+  DEP_FILE = CMakeFiles\CPP_GRAPH_NumberOfIsland.dir\DSA\graph\NumberOfIsland.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\CPP_GRAPH_NumberOfIsland.dir
+  OBJECT_FILE_DIR = CMakeFiles\CPP_GRAPH_NumberOfIsland.dir\DSA\graph
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target CPP_GRAPH_NumberOfIsland
+
+
+#############################################
+# Link the executable CPP_GRAPH_NumberOfIsland.exe
+
+build CPP_GRAPH_NumberOfIsland.exe: CXX_EXECUTABLE_LINKER__CPP_GRAPH_NumberOfIsland_Debug CMakeFiles/CPP_GRAPH_NumberOfIsland.dir/DSA/graph/NumberOfIsland.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\CPP_GRAPH_NumberOfIsland.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = CPP_GRAPH_NumberOfIsland.exe
+  TARGET_IMPLIB = libCPP_GRAPH_NumberOfIsland.dll.a
+  TARGET_PDB = CPP_GRAPH_NumberOfIsland.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target CPP_GRAPH_SmllestIsland
+
+
+#############################################
+# Order-only phony target for CPP_GRAPH_SmllestIsland
+
+build cmake_object_order_depends_target_CPP_GRAPH_SmllestIsland: phony || CMakeFiles/CPP_GRAPH_SmllestIsland.dir
+
+build CMakeFiles/CPP_GRAPH_SmllestIsland.dir/DSA/graph/smallestIsland.cpp.obj: CXX_COMPILER__CPP_GRAPH_SmllestIsland_unscanned_Debug S$:/Learning/cpp/DSA/graph/smallestIsland.cpp || cmake_object_order_depends_target_CPP_GRAPH_SmllestIsland
+  DEP_FILE = CMakeFiles\CPP_GRAPH_SmllestIsland.dir\DSA\graph\smallestIsland.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\CPP_GRAPH_SmllestIsland.dir
+  OBJECT_FILE_DIR = CMakeFiles\CPP_GRAPH_SmllestIsland.dir\DSA\graph
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target CPP_GRAPH_SmllestIsland
+
+
+#############################################
+# Link the executable CPP_GRAPH_SmllestIsland.exe
+
+build CPP_GRAPH_SmllestIsland.exe: CXX_EXECUTABLE_LINKER__CPP_GRAPH_SmllestIsland_Debug CMakeFiles/CPP_GRAPH_SmllestIsland.dir/DSA/graph/smallestIsland.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\CPP_GRAPH_SmllestIsland.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = CPP_GRAPH_SmllestIsland.exe
+  TARGET_IMPLIB = libCPP_GRAPH_SmllestIsland.dll.a
+  TARGET_PDB = CPP_GRAPH_SmllestIsland.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -476,7 +608,15 @@ build CPP_GRAPH_Has_path_DFS: phony CPP_GRAPH_Has_path_DFS.exe
 
 build CPP_GRAPH_Has_path_Undirected: phony CPP_GRAPH_Has_path_Undirected.exe
 
+build CPP_GRAPH_LargestGraph: phony CPP_GRAPH_LargestGraph.exe
+
 build CPP_GRAPH_NumberOfGraph: phony CPP_GRAPH_NumberOfGraph.exe
+
+build CPP_GRAPH_NumberOfIsland: phony CPP_GRAPH_NumberOfIsland.exe
+
+build CPP_GRAPH_ShortestPath: phony CPP_GRAPH_ShortestPath.exe
+
+build CPP_GRAPH_SmllestIsland: phony CPP_GRAPH_SmllestIsland.exe
 
 build cpp_BC_TNQ: phony cpp_BC_TNQ.exe
 
@@ -494,7 +634,7 @@ build cpp_main: phony cpp_main.exe
 #############################################
 # Folder: S:/Learning/cpp/cmake-build-debug
 
-build all: phony cpp_main.exe cpp_DSA.exe cpp_DSA1.exe cpp_BC_TNQ.exe CPP_BC_NQ.exe CPP_Contest_402_3.exe CPP_GRAPH_DFS.exe CPP_GRAPH_BFS.exe CPP_GRAPH_HAS_path_BFS.exe CPP_GRAPH_Has_path_DFS.exe CPP_GRAPH_Has_path_Undirected.exe CPP_GRAPH_NumberOfGraph.exe
+build all: phony cpp_main.exe cpp_DSA.exe cpp_DSA1.exe cpp_BC_TNQ.exe CPP_BC_NQ.exe CPP_Contest_402_3.exe CPP_GRAPH_DFS.exe CPP_GRAPH_BFS.exe CPP_GRAPH_HAS_path_BFS.exe CPP_GRAPH_Has_path_DFS.exe CPP_GRAPH_Has_path_Undirected.exe CPP_GRAPH_NumberOfGraph.exe CPP_GRAPH_LargestGraph.exe CPP_GRAPH_ShortestPath.exe CPP_GRAPH_NumberOfIsland.exe CPP_GRAPH_SmllestIsland.exe
 
 # =============================================================================
 # Built-in targets

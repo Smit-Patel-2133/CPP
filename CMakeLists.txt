@@ -20,6 +20,7 @@ add_executable(CPP_GRAPH_Has_path_Undirected "DSA/graph/Has_path_Undirected.cpp"
 add_executable(CPP_GRAPH_NumberOfGraph "DSA/graph/NumberOfGraph.cpp")
 add_executable(CPP_GRAPH_LargestGraph "DSA/graph/LargestComponent.cpp")
 add_executable(CPP_GRAPH_ShortestPath "DSA/graph/shortestPath.cpp")
-
 add_executable(CPP_GRAPH_NumberOfIsland "DSA/graph/NumberOfIsland.cpp")
 add_executable(CPP_GRAPH_SmllestIsland "DSA/graph/smallestIsland.cpp")
+add_executable(CPP_DP_fibonacci "DSA/Dynamic Programming/Fibonacci.cpp")
+add_executable(CPP_DP_GridTraveler "DSA/Dynamic Programming/GridTraveler.cpp")

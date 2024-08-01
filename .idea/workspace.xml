@@ -12,6 +12,7 @@
   <component name="CMakeRunConfigurationManager">
     <generated>
       <config projectName="cpp" targetName="CPP_GRAPH_Has_path_Undirected" />
+      <config projectName="cpp" targetName="CPP_DP_fibonacci" />
       <config projectName="cpp" targetName="CPP_GRAPH_ShortestPath" />
       <config projectName="cpp" targetName="CPP_GRAPH_NumberOfGraph" />
       <config projectName="cpp" targetName="cpp_BC_TNQ" />
@@ -24,7 +25,9 @@
       <config projectName="cpp" targetName="CPP_GRAPH_HAS_path_BFS" />
       <config projectName="cpp" targetName="CPP_GRAPH_BFS" />
       <config projectName="cpp" targetName="cpp_main" />
+      <config projectName="cpp" targetName="CPP_GRAPH_SmllestIsland" />
       <config projectName="cpp" targetName="CPP_GRAPH_Has_path_DFS" />
+      <config projectName="cpp" targetName="CPP_DP_GridTraveler" />
       <config projectName="cpp" targetName="cpp_DSA" />
       <config projectName="cpp" targetName="CPP_Contest_402_3" />
     </generated>
@@ -35,16 +38,15 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4dbba498-d9c3-4221-b64c-086ad4054097" name="Changes" comment="graph DFS">
-      <change afterPath="$PROJECT_DIR$/DSA/graph/LargestComponent.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA/graph/NumberOfIsland.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA/graph/shortestPath.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA/graph/smallestIsland.cpp" afterDir="false" />
+    <list default="true" id="4dbba498-d9c3-4221-b64c-086ad4054097" name="Changes" comment="graph problems">
+      <change afterPath="$PROJECT_DIR$/DSA/Dynamic Programming/Fibonacci.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA/Dynamic Programming/GridTraveler.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
@@ -79,6 +81,8 @@
   "keyToString": {
     "CMake Application.CPP_BC_NQ.executor": "Run",
     "CMake Application.CPP_Contest_402_3.executor": "Run",
+    "CMake Application.CPP_DP_GridTraveler.executor": "Run",
+    "CMake Application.CPP_DP_fibonacci.executor": "Run",
     "CMake Application.CPP_GRAPH_BFS.executor": "Run",
     "CMake Application.CPP_GRAPH_DFS.executor": "Run",
     "CMake Application.CPP_GRAPH_HAS_path_BFS.executor": "Run",
@@ -88,6 +92,7 @@
     "CMake Application.CPP_GRAPH_NumberOfGraph.executor": "Run",
     "CMake Application.CPP_GRAPH_NumberOfIsland.executor": "Run",
     "CMake Application.CPP_GRAPH_ShortestPath.executor": "Run",
+    "CMake Application.CPP_GRAPH_SmllestIsland.executor": "Run",
     "CMake Application.cpp.executor": "Run",
     "CMake Application.cpp_BC.executor": "Run",
     "CMake Application.cpp_BC_TNQ.executor": "Run",
@@ -117,7 +122,12 @@
       <recent name="S:\Learning\cpp\DSA" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.CPP_GRAPH_SmllestIsland">
+  <component name="RunManager" selected="CMake Application.CPP_DP_GridTraveler">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="cpp" type="CMakeListConfigurationType" factoryName="CMakeListConfigurationFactory" temporary="true">
       <method v="2" />
     </configuration>
@@ -127,6 +137,16 @@
       </method>
     </configuration>
     <configuration name="CPP_Contest_402_3" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cpp" TARGET_NAME="CPP_Contest_402_3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cpp" RUN_TARGET_NAME="CPP_Contest_402_3">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CPP_DP_GridTraveler" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cpp" TARGET_NAME="CPP_DP_GridTraveler" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cpp" RUN_TARGET_NAME="CPP_DP_GridTraveler">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CPP_DP_fibonacci" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cpp" TARGET_NAME="CPP_DP_fibonacci" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cpp" RUN_TARGET_NAME="CPP_DP_fibonacci">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -209,6 +229,8 @@
     <list>
       <item itemvalue="CMake Application.CPP_BC_NQ" />
       <item itemvalue="CMake Application.CPP_Contest_402_3" />
+      <item itemvalue="CMake Application.CPP_DP_fibonacci" />
+      <item itemvalue="CMake Application.CPP_DP_GridTraveler" />
       <item itemvalue="CMake Application.cpp_BC_TNQ" />
       <item itemvalue="CMake Application.cpp_DSA1" />
       <item itemvalue="CMake Application.CPP_GRAPH_BFS" />
@@ -248,7 +270,8 @@
       <workItem from="1722335277149" duration="5326000" />
       <workItem from="1722396213114" duration="636000" />
       <workItem from="1722409103402" duration="1108000" />
-      <workItem from="1722485444414" duration="4469000" />
+      <workItem from="1722485444414" duration="4790000" />
+      <workItem from="1722506015502" duration="4430000" />
     </task>
     <task id="LOCAL-00001" summary="graph DFS">
       <option name="closed" value="true" />
@@ -274,7 +297,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722410207280</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="graph problems">
+      <option name="closed" value="true" />
+      <created>1722490722659</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1722490722659</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,6 +318,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="graph DFS" />
-    <option name="LAST_COMMIT_MESSAGE" value="graph DFS" />
+    <MESSAGE value="graph problems" />
+    <option name="LAST_COMMIT_MESSAGE" value="graph problems" />
   </component>
 </project>

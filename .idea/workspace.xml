@@ -13,23 +13,28 @@
     <generated>
       <config projectName="cpp" targetName="CPP_GRAPH_Has_path_Undirected" />
       <config projectName="cpp" targetName="CPP_DP_fibonacci" />
-      <config projectName="cpp" targetName="CPP_GRAPH_ShortestPath" />
-      <config projectName="cpp" targetName="CPP_GRAPH_NumberOfGraph" />
       <config projectName="cpp" targetName="cpp_BC_TNQ" />
       <config projectName="cpp" targetName="CPP_BC_NQ" />
-      <config projectName="cpp" targetName="CPP_GRAPH_NumberOfIsland" />
-      <config projectName="cpp" targetName="CPP_GRAPH_LargestGraph" />
-      <config projectName="cpp" targetName="CPP_GRAPH_DFS" />
       <config projectName="cpp" targetName="cpp_DSA1" />
+      <config projectName="cpp" targetName="CPP_Recursion_HowSum" />
       <config projectName="cpp" targetName="cpp" />
       <config projectName="cpp" targetName="CPP_GRAPH_HAS_path_BFS" />
       <config projectName="cpp" targetName="CPP_GRAPH_BFS" />
       <config projectName="cpp" targetName="cpp_main" />
       <config projectName="cpp" targetName="CPP_GRAPH_SmllestIsland" />
       <config projectName="cpp" targetName="CPP_GRAPH_Has_path_DFS" />
-      <config projectName="cpp" targetName="CPP_DP_GridTraveler" />
+      <config projectName="cpp" targetName="CPP_Recursion_CanSum" />
+      <config projectName="cpp" targetName="CPP_reverse" />
       <config projectName="cpp" targetName="cpp_DSA" />
       <config projectName="cpp" targetName="CPP_Contest_402_3" />
+      <config projectName="cpp" targetName="CPP_DP_CanSum" />
+      <config projectName="cpp" targetName="CPP_GRAPH_ShortestPath" />
+      <config projectName="cpp" targetName="CPP_GRAPH_NumberOfGraph" />
+      <config projectName="cpp" targetName="CPP_GRAPH_NumberOfIsland" />
+      <config projectName="cpp" targetName="CPP_GRAPH_LargestGraph" />
+      <config projectName="cpp" targetName="CPP_GRAPH_DFS" />
+      <config projectName="cpp" targetName="CPP_DP_HowSum" />
+      <config projectName="cpp" targetName="CPP_DP_GridTraveler" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -38,11 +43,16 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4dbba498-d9c3-4221-b64c-086ad4054097" name="Changes" comment="graph problems">
-      <change afterPath="$PROJECT_DIR$/DSA/Dynamic Programming/Fibonacci.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA/Dynamic Programming/GridTraveler.cpp" afterDir="false" />
+    <list default="true" id="4dbba498-d9c3-4221-b64c-086ad4054097" name="Changes" comment="Dynamic programming">
+      <change afterPath="$PROJECT_DIR$/DSA/Dynamic Programming/canSum.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA/Dynamic Programming/howSum.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA/recursion/canSum.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA/recursion/howSum.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/string/reverse.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-CPP_BC_NQ-Debug-2c1a616587d5877c6110.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-CPP_Contest_402_3-Debug-cb1043563751d96a5c70.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
@@ -81,7 +91,9 @@
   "keyToString": {
     "CMake Application.CPP_BC_NQ.executor": "Run",
     "CMake Application.CPP_Contest_402_3.executor": "Run",
+    "CMake Application.CPP_DP_CanSum.executor": "Run",
     "CMake Application.CPP_DP_GridTraveler.executor": "Run",
+    "CMake Application.CPP_DP_HowSum.executor": "Run",
     "CMake Application.CPP_DP_fibonacci.executor": "Run",
     "CMake Application.CPP_GRAPH_BFS.executor": "Run",
     "CMake Application.CPP_GRAPH_DFS.executor": "Run",
@@ -93,6 +105,9 @@
     "CMake Application.CPP_GRAPH_NumberOfIsland.executor": "Run",
     "CMake Application.CPP_GRAPH_ShortestPath.executor": "Run",
     "CMake Application.CPP_GRAPH_SmllestIsland.executor": "Run",
+    "CMake Application.CPP_Recursion_CanSum.executor": "Run",
+    "CMake Application.CPP_Recursion_HowSum.executor": "Run",
+    "CMake Application.CPP_reverse.executor": "Run",
     "CMake Application.cpp.executor": "Run",
     "CMake Application.cpp_BC.executor": "Run",
     "CMake Application.cpp_BC_TNQ.executor": "Run",
@@ -113,6 +128,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "CMakeSettings",
     "vue.rearranger.settings.migration": "true"
   }
@@ -122,7 +138,7 @@
       <recent name="S:\Learning\cpp\DSA" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.CPP_DP_GridTraveler">
+  <component name="RunManager" selected="CMake Application.CPP_DP_HowSum">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
@@ -141,7 +157,17 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CPP_DP_CanSum" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cpp" TARGET_NAME="CPP_DP_CanSum" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cpp" RUN_TARGET_NAME="CPP_DP_CanSum">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CPP_DP_GridTraveler" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cpp" TARGET_NAME="CPP_DP_GridTraveler" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cpp" RUN_TARGET_NAME="CPP_DP_GridTraveler">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CPP_DP_HowSum" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cpp" TARGET_NAME="CPP_DP_HowSum" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cpp" RUN_TARGET_NAME="CPP_DP_HowSum">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -201,6 +227,21 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CPP_Recursion_CanSum" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cpp" TARGET_NAME="CPP_Recursion_CanSum" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cpp" RUN_TARGET_NAME="CPP_Recursion_CanSum">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CPP_Recursion_HowSum" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cpp" TARGET_NAME="CPP_Recursion_HowSum" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cpp" RUN_TARGET_NAME="CPP_Recursion_HowSum">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CPP_reverse" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cpp" TARGET_NAME="CPP_reverse" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cpp" RUN_TARGET_NAME="CPP_reverse">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cpp" TARGET_NAME="my_executable" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cpp" RUN_TARGET_NAME="my_executable">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -229,8 +270,10 @@
     <list>
       <item itemvalue="CMake Application.CPP_BC_NQ" />
       <item itemvalue="CMake Application.CPP_Contest_402_3" />
+      <item itemvalue="CMake Application.CPP_DP_CanSum" />
       <item itemvalue="CMake Application.CPP_DP_fibonacci" />
       <item itemvalue="CMake Application.CPP_DP_GridTraveler" />
+      <item itemvalue="CMake Application.CPP_DP_HowSum" />
       <item itemvalue="CMake Application.cpp_BC_TNQ" />
       <item itemvalue="CMake Application.cpp_DSA1" />
       <item itemvalue="CMake Application.CPP_GRAPH_BFS" />
@@ -245,6 +288,9 @@
       <item itemvalue="CMake Application.CPP_GRAPH_SmllestIsland" />
       <item itemvalue="CMake Application.cpp_DSA" />
       <item itemvalue="CMake Application.cpp_main" />
+      <item itemvalue="CMake Application.CPP_Recursion_CanSum" />
+      <item itemvalue="CMake Application.CPP_Recursion_HowSum" />
+      <item itemvalue="CMake Application.CPP_reverse" />
       <item itemvalue="CMake Debug.cpp" />
     </list>
     <recent_temporary>
@@ -271,7 +317,11 @@
       <workItem from="1722396213114" duration="636000" />
       <workItem from="1722409103402" duration="1108000" />
       <workItem from="1722485444414" duration="4790000" />
-      <workItem from="1722506015502" duration="4430000" />
+      <workItem from="1722506015502" duration="5915000" />
+      <workItem from="1723003645551" duration="1198000" />
+      <workItem from="1723110840077" duration="2942000" />
+      <workItem from="1723194147884" duration="1168000" />
+      <workItem from="1723264082104" duration="2807000" />
     </task>
     <task id="LOCAL-00001" summary="graph DFS">
       <option name="closed" value="true" />
@@ -305,7 +355,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722490722659</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Dynamic programming">
+      <option name="closed" value="true" />
+      <created>1722516116515</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1722516116515</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -319,6 +377,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="graph DFS" />
     <MESSAGE value="graph problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="graph problems" />
+    <MESSAGE value="Dynamic programming" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dynamic programming" />
   </component>
 </project>

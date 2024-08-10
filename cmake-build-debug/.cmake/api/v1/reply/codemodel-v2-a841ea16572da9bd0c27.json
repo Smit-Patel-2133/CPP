@@ -1,0 +1,258 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cpp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "CPP_BC_NQ::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CPP_BC_NQ-Debug-76072feedb03c0d0d4a3.json",
+					"name" : "CPP_BC_NQ",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CPP_Contest_402_3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CPP_Contest_402_3-Debug-508b070d9f3cfe8aa250.json",
+					"name" : "CPP_Contest_402_3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CPP_DP_CanSum::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CPP_DP_CanSum-Debug-587e57ca7bed29209c7a.json",
+					"name" : "CPP_DP_CanSum",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CPP_DP_GridTraveler::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CPP_DP_GridTraveler-Debug-01c823243fb0f4661df9.json",
+					"name" : "CPP_DP_GridTraveler",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CPP_DP_HowSum::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CPP_DP_HowSum-Debug-7060dd8e63f12f8260d9.json",
+					"name" : "CPP_DP_HowSum",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CPP_DP_fibonacci::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CPP_DP_fibonacci-Debug-593c28b0e75d44e08fad.json",
+					"name" : "CPP_DP_fibonacci",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CPP_GRAPH_BFS::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CPP_GRAPH_BFS-Debug-835ea4caa783191a5be8.json",
+					"name" : "CPP_GRAPH_BFS",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CPP_GRAPH_DFS::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CPP_GRAPH_DFS-Debug-f8c2fcb3aa84cf687b29.json",
+					"name" : "CPP_GRAPH_DFS",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CPP_GRAPH_HAS_path_BFS::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CPP_GRAPH_HAS_path_BFS-Debug-324c995c73adfbe0d040.json",
+					"name" : "CPP_GRAPH_HAS_path_BFS",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CPP_GRAPH_Has_path_DFS::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CPP_GRAPH_Has_path_DFS-Debug-b948e163ea8d86971248.json",
+					"name" : "CPP_GRAPH_Has_path_DFS",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CPP_GRAPH_Has_path_Undirected::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CPP_GRAPH_Has_path_Undirected-Debug-1055ba7916bf6e095990.json",
+					"name" : "CPP_GRAPH_Has_path_Undirected",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CPP_GRAPH_LargestGraph::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CPP_GRAPH_LargestGraph-Debug-575b330081ea644b1666.json",
+					"name" : "CPP_GRAPH_LargestGraph",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CPP_GRAPH_NumberOfGraph::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CPP_GRAPH_NumberOfGraph-Debug-871c1dfaf3285affea2b.json",
+					"name" : "CPP_GRAPH_NumberOfGraph",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CPP_GRAPH_NumberOfIsland::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CPP_GRAPH_NumberOfIsland-Debug-0b2a3eb1b0b22eeefaba.json",
+					"name" : "CPP_GRAPH_NumberOfIsland",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CPP_GRAPH_ShortestPath::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CPP_GRAPH_ShortestPath-Debug-65266c17b6b5586094a5.json",
+					"name" : "CPP_GRAPH_ShortestPath",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CPP_GRAPH_SmllestIsland::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CPP_GRAPH_SmllestIsland-Debug-0e6a628731562c07dd5b.json",
+					"name" : "CPP_GRAPH_SmllestIsland",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CPP_Recursion_CanSum::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CPP_Recursion_CanSum-Debug-d6322579a2c853b4be52.json",
+					"name" : "CPP_Recursion_CanSum",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CPP_Recursion_HowSum::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CPP_Recursion_HowSum-Debug-85bcc158976823bde549.json",
+					"name" : "CPP_Recursion_HowSum",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CPP_reverse::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CPP_reverse-Debug-9164429dc6e4479d56e6.json",
+					"name" : "CPP_reverse",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp_BC_TNQ::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp_BC_TNQ-Debug-f4af56f51c26d10170ad.json",
+					"name" : "cpp_BC_TNQ",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp_DSA::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp_DSA-Debug-3f9a92ac3b9e8667ed9f.json",
+					"name" : "cpp_DSA",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp_DSA1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp_DSA1-Debug-d0bad912bf7081603267.json",
+					"name" : "cpp_DSA1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp_main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp_main-Debug-973e3d06ba8d16577412.json",
+					"name" : "cpp_main",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "S:/Learning/cpp/cmake-build-debug",
+		"source" : "S:/Learning/cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

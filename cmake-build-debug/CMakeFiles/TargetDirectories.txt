@@ -2,6 +2,7 @@ S:/Learning/cpp/cmake-build-debug/CMakeFiles/cpp_main.dir
 S:/Learning/cpp/cmake-build-debug/CMakeFiles/cpp_DSA.dir
 S:/Learning/cpp/cmake-build-debug/CMakeFiles/cpp_DSA1.dir
 S:/Learning/cpp/cmake-build-debug/CMakeFiles/cpp_BC_TNQ.dir
+S:/Learning/cpp/cmake-build-debug/CMakeFiles/CPP_reverse.dir
 S:/Learning/cpp/cmake-build-debug/CMakeFiles/CPP_BC_NQ.dir
 S:/Learning/cpp/cmake-build-debug/CMakeFiles/CPP_Contest_402_3.dir
 S:/Learning/cpp/cmake-build-debug/CMakeFiles/CPP_GRAPH_DFS.dir
@@ -16,5 +17,9 @@ S:/Learning/cpp/cmake-build-debug/CMakeFiles/CPP_GRAPH_NumberOfIsland.dir
 S:/Learning/cpp/cmake-build-debug/CMakeFiles/CPP_GRAPH_SmllestIsland.dir
 S:/Learning/cpp/cmake-build-debug/CMakeFiles/CPP_DP_fibonacci.dir
 S:/Learning/cpp/cmake-build-debug/CMakeFiles/CPP_DP_GridTraveler.dir
+S:/Learning/cpp/cmake-build-debug/CMakeFiles/CPP_DP_CanSum.dir
+S:/Learning/cpp/cmake-build-debug/CMakeFiles/CPP_DP_HowSum.dir
+S:/Learning/cpp/cmake-build-debug/CMakeFiles/CPP_Recursion_CanSum.dir
+S:/Learning/cpp/cmake-build-debug/CMakeFiles/CPP_Recursion_HowSum.dir
 S:/Learning/cpp/cmake-build-debug/CMakeFiles/edit_cache.dir
 S:/Learning/cpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir

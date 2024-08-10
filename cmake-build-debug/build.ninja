@@ -173,6 +173,39 @@ build cpp_BC_TNQ.exe: CXX_EXECUTABLE_LINKER__cpp_BC_TNQ_Debug CMakeFiles/cpp_BC_
   TARGET_PDB = cpp_BC_TNQ.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target CPP_reverse
+
+
+#############################################
+# Order-only phony target for CPP_reverse
+
+build cmake_object_order_depends_target_CPP_reverse: phony || CMakeFiles/CPP_reverse.dir
+
+build CMakeFiles/CPP_reverse.dir/string/reverse.cpp.obj: CXX_COMPILER__CPP_reverse_unscanned_Debug S$:/Learning/cpp/string/reverse.cpp || cmake_object_order_depends_target_CPP_reverse
+  DEP_FILE = CMakeFiles\CPP_reverse.dir\string\reverse.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\CPP_reverse.dir
+  OBJECT_FILE_DIR = CMakeFiles\CPP_reverse.dir\string
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target CPP_reverse
+
+
+#############################################
+# Link the executable CPP_reverse.exe
+
+build CPP_reverse.exe: CXX_EXECUTABLE_LINKER__CPP_reverse_Debug CMakeFiles/CPP_reverse.dir/string/reverse.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\CPP_reverse.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = CPP_reverse.exe
+  TARGET_IMPLIB = libCPP_reverse.dll.a
+  TARGET_PDB = CPP_reverse.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target CPP_BC_NQ
 
 
@@ -634,6 +667,138 @@ build CPP_DP_GridTraveler.exe: CXX_EXECUTABLE_LINKER__CPP_DP_GridTraveler_Debug 
   TARGET_IMPLIB = libCPP_DP_GridTraveler.dll.a
   TARGET_PDB = CPP_DP_GridTraveler.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target CPP_DP_CanSum
+
+
+#############################################
+# Order-only phony target for CPP_DP_CanSum
+
+build cmake_object_order_depends_target_CPP_DP_CanSum: phony || CMakeFiles/CPP_DP_CanSum.dir
+
+build CMakeFiles/CPP_DP_CanSum.dir/DSA/Dynamic_Programming/canSum.cpp.obj: CXX_COMPILER__CPP_DP_CanSum_unscanned_Debug S$:/Learning/cpp/DSA/Dynamic$ Programming/canSum.cpp || cmake_object_order_depends_target_CPP_DP_CanSum
+  DEP_FILE = CMakeFiles\CPP_DP_CanSum.dir\DSA\Dynamic_Programming\canSum.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\CPP_DP_CanSum.dir
+  OBJECT_FILE_DIR = CMakeFiles\CPP_DP_CanSum.dir\DSA\Dynamic_Programming
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target CPP_DP_CanSum
+
+
+#############################################
+# Link the executable CPP_DP_CanSum.exe
+
+build CPP_DP_CanSum.exe: CXX_EXECUTABLE_LINKER__CPP_DP_CanSum_Debug CMakeFiles/CPP_DP_CanSum.dir/DSA/Dynamic_Programming/canSum.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\CPP_DP_CanSum.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = CPP_DP_CanSum.exe
+  TARGET_IMPLIB = libCPP_DP_CanSum.dll.a
+  TARGET_PDB = CPP_DP_CanSum.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target CPP_DP_HowSum
+
+
+#############################################
+# Order-only phony target for CPP_DP_HowSum
+
+build cmake_object_order_depends_target_CPP_DP_HowSum: phony || CMakeFiles/CPP_DP_HowSum.dir
+
+build CMakeFiles/CPP_DP_HowSum.dir/DSA/Dynamic_Programming/howSum.cpp.obj: CXX_COMPILER__CPP_DP_HowSum_unscanned_Debug S$:/Learning/cpp/DSA/Dynamic$ Programming/howSum.cpp || cmake_object_order_depends_target_CPP_DP_HowSum
+  DEP_FILE = CMakeFiles\CPP_DP_HowSum.dir\DSA\Dynamic_Programming\howSum.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\CPP_DP_HowSum.dir
+  OBJECT_FILE_DIR = CMakeFiles\CPP_DP_HowSum.dir\DSA\Dynamic_Programming
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target CPP_DP_HowSum
+
+
+#############################################
+# Link the executable CPP_DP_HowSum.exe
+
+build CPP_DP_HowSum.exe: CXX_EXECUTABLE_LINKER__CPP_DP_HowSum_Debug CMakeFiles/CPP_DP_HowSum.dir/DSA/Dynamic_Programming/howSum.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\CPP_DP_HowSum.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = CPP_DP_HowSum.exe
+  TARGET_IMPLIB = libCPP_DP_HowSum.dll.a
+  TARGET_PDB = CPP_DP_HowSum.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target CPP_Recursion_CanSum
+
+
+#############################################
+# Order-only phony target for CPP_Recursion_CanSum
+
+build cmake_object_order_depends_target_CPP_Recursion_CanSum: phony || CMakeFiles/CPP_Recursion_CanSum.dir
+
+build CMakeFiles/CPP_Recursion_CanSum.dir/DSA/recursion/canSum.cpp.obj: CXX_COMPILER__CPP_Recursion_CanSum_unscanned_Debug S$:/Learning/cpp/DSA/recursion/canSum.cpp || cmake_object_order_depends_target_CPP_Recursion_CanSum
+  DEP_FILE = CMakeFiles\CPP_Recursion_CanSum.dir\DSA\recursion\canSum.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\CPP_Recursion_CanSum.dir
+  OBJECT_FILE_DIR = CMakeFiles\CPP_Recursion_CanSum.dir\DSA\recursion
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target CPP_Recursion_CanSum
+
+
+#############################################
+# Link the executable CPP_Recursion_CanSum.exe
+
+build CPP_Recursion_CanSum.exe: CXX_EXECUTABLE_LINKER__CPP_Recursion_CanSum_Debug CMakeFiles/CPP_Recursion_CanSum.dir/DSA/recursion/canSum.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\CPP_Recursion_CanSum.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = CPP_Recursion_CanSum.exe
+  TARGET_IMPLIB = libCPP_Recursion_CanSum.dll.a
+  TARGET_PDB = CPP_Recursion_CanSum.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target CPP_Recursion_HowSum
+
+
+#############################################
+# Order-only phony target for CPP_Recursion_HowSum
+
+build cmake_object_order_depends_target_CPP_Recursion_HowSum: phony || CMakeFiles/CPP_Recursion_HowSum.dir
+
+build CMakeFiles/CPP_Recursion_HowSum.dir/DSA/recursion/howSum.cpp.obj: CXX_COMPILER__CPP_Recursion_HowSum_unscanned_Debug S$:/Learning/cpp/DSA/recursion/howSum.cpp || cmake_object_order_depends_target_CPP_Recursion_HowSum
+  DEP_FILE = CMakeFiles\CPP_Recursion_HowSum.dir\DSA\recursion\howSum.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\CPP_Recursion_HowSum.dir
+  OBJECT_FILE_DIR = CMakeFiles\CPP_Recursion_HowSum.dir\DSA\recursion
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target CPP_Recursion_HowSum
+
+
+#############################################
+# Link the executable CPP_Recursion_HowSum.exe
+
+build CPP_Recursion_HowSum.exe: CXX_EXECUTABLE_LINKER__CPP_Recursion_HowSum_Debug CMakeFiles/CPP_Recursion_HowSum.dir/DSA/recursion/howSum.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\CPP_Recursion_HowSum.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = CPP_Recursion_HowSum.exe
+  TARGET_IMPLIB = libCPP_Recursion_HowSum.dll.a
+  TARGET_PDB = CPP_Recursion_HowSum.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -664,7 +829,11 @@ build CPP_BC_NQ: phony CPP_BC_NQ.exe
 
 build CPP_Contest_402_3: phony CPP_Contest_402_3.exe
 
+build CPP_DP_CanSum: phony CPP_DP_CanSum.exe
+
 build CPP_DP_GridTraveler: phony CPP_DP_GridTraveler.exe
+
+build CPP_DP_HowSum: phony CPP_DP_HowSum.exe
 
 build CPP_DP_fibonacci: phony CPP_DP_fibonacci.exe
 
@@ -688,6 +857,12 @@ build CPP_GRAPH_ShortestPath: phony CPP_GRAPH_ShortestPath.exe
 
 build CPP_GRAPH_SmllestIsland: phony CPP_GRAPH_SmllestIsland.exe
 
+build CPP_Recursion_CanSum: phony CPP_Recursion_CanSum.exe
+
+build CPP_Recursion_HowSum: phony CPP_Recursion_HowSum.exe
+
+build CPP_reverse: phony CPP_reverse.exe
+
 build cpp_BC_TNQ: phony cpp_BC_TNQ.exe
 
 build cpp_DSA: phony cpp_DSA.exe
@@ -704,7 +879,7 @@ build cpp_main: phony cpp_main.exe
 #############################################
 # Folder: S:/Learning/cpp/cmake-build-debug
 
-build all: phony cpp_main.exe cpp_DSA.exe cpp_DSA1.exe cpp_BC_TNQ.exe CPP_BC_NQ.exe CPP_Contest_402_3.exe CPP_GRAPH_DFS.exe CPP_GRAPH_BFS.exe CPP_GRAPH_HAS_path_BFS.exe CPP_GRAPH_Has_path_DFS.exe CPP_GRAPH_Has_path_Undirected.exe CPP_GRAPH_NumberOfGraph.exe CPP_GRAPH_LargestGraph.exe CPP_GRAPH_ShortestPath.exe CPP_GRAPH_NumberOfIsland.exe CPP_GRAPH_SmllestIsland.exe CPP_DP_fibonacci.exe CPP_DP_GridTraveler.exe
+build all: phony cpp_main.exe cpp_DSA.exe cpp_DSA1.exe cpp_BC_TNQ.exe CPP_reverse.exe CPP_BC_NQ.exe CPP_Contest_402_3.exe CPP_GRAPH_DFS.exe CPP_GRAPH_BFS.exe CPP_GRAPH_HAS_path_BFS.exe CPP_GRAPH_Has_path_DFS.exe CPP_GRAPH_Has_path_Undirected.exe CPP_GRAPH_NumberOfGraph.exe CPP_GRAPH_LargestGraph.exe CPP_GRAPH_ShortestPath.exe CPP_GRAPH_NumberOfIsland.exe CPP_GRAPH_SmllestIsland.exe CPP_DP_fibonacci.exe CPP_DP_GridTraveler.exe CPP_DP_CanSum.exe CPP_DP_HowSum.exe CPP_Recursion_CanSum.exe CPP_Recursion_HowSum.exe
 
 # =============================================================================
 # Built-in targets
